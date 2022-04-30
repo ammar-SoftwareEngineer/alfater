@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+overflow-y: hidden;
 }
 
 .container {
@@ -54,6 +54,7 @@ body {
 
 /* start header */
 header {
+
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -104,6 +105,7 @@ header li {
         font-family: myFirstFont;
         background-image: url("../images/Eid-Mubarak-Web-Banner-19.svg");
         background-position: 20%;
+        overflow-y: visible;
     }
 
     header {
