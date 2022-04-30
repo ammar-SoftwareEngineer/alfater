@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
 }
 
 .container {
@@ -51,6 +52,7 @@ body {
     }
 }
 
+/* start header */
 header {
     text-align: center;
     padding-top: 20px;
@@ -62,9 +64,11 @@ header {
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 1);
 }
-header h1{
+
+header h1 {
     font-size: 50px;
 }
+
 header h2 {
     height: 1.2em;
     line-height: 1.2em;
@@ -73,9 +77,11 @@ header h2 {
     width: auto;
     margin-bottom: 50px;
 }
-header h1{
+
+header h1 {
     color: rgb(255, 255, 255);
 }
+
 header h2 span {
     position: absolute;
     top: 0;
@@ -92,13 +98,15 @@ header li {
     font-size: 18px;
     margin-top: 15px;
 }
+
 @media(max-width:767px) {
     body {
         font-family: myFirstFont;
         background-image: url("../images/Eid-Mubarak-Web-Banner-19.svg");
         background-position: 20%;
     }
-    header{
+
+    header {
         background: rgba(255, 255, 255, 0.14);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -106,17 +114,155 @@ header li {
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         border: 1px solid rgba(255, 255, 255, 1);
     }
-    header h1{
+
+    header h1 {
         font-size: 45px;
     }
+
     header h2 span {
         animation: slide1 10s infinite;
     }
+
     header li {
         font-size: 17px;
     }
 }
 
+/* end header */
+/* start images */
+.images img {
+    height: 200px;
+    animation: swing 10s infinite;
+}
+
+header .images .one {
+    position: relative;
+}
+
+.images .one img {
+    position: absolute;
+    left: 50%;
+    top: 73%;
+}
+
+header .images .two {
+    position: relative;
+}
+
+.images .two img {
+    position: absolute;
+    left: 76%;
+    top: 73%;
+}
+
+header .images .three {
+    position: relative;
+}
+
+.images .three img {
+    position: absolute;
+    left: 78%;
+    top: 0;
+}
+
+header .images .four {
+    position: relative;
+}
+
+.images .four img {
+    position: absolute;
+    left: 20%;
+    top: 73%;
+}
+
+header .images .five {
+    position: relative;
+}
+
+.images .five img {
+    position: absolute;
+    left: 15%;
+    top: 0;
+}
+
+header .images .six {
+    position: relative;
+}
+
+.images .six img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+@media(max-width:767px) {
+    .images img {
+        height: 150px;
+    }
+
+    header .images .one {
+        position: relative;
+    }
+
+    .images .one img {
+        position: absolute;
+        left: 42%;
+        top: 80%;
+    }
+
+    header .images .two {
+        position: relative;
+    }
+
+    .images .two img {
+        position: absolute;
+        left: 80%;
+        top: 80%;
+    }
+
+    header .images .three {
+        position: relative;
+    }
+
+    .images .three img {
+        position: absolute;
+        left: 70%;
+        top: 0;
+    }
+
+    header .images .four {
+        position: relative;
+    }
+
+    .images .four img {
+        position: absolute;
+        left: 5%;
+        top: 80%;
+    }
+
+    header .images .five {
+        position: relative;
+    }
+
+    .images .five img {
+        position: absolute;
+        left: 5%;
+        top: 0;
+    }
+
+    header .images .six {
+        position: relative;
+    }
+
+    .images .six img {
+        position: absolute;
+        left: 42%;
+        top: 0;
+    }
+}
+
+/* end images */
+/* start keyframes */
 @keyframes slide {
     0% {
         top: 0;
@@ -131,6 +277,7 @@ header li {
     }
 
 }
+
 @keyframes slide1 {
     0% {
         top: 0;
@@ -143,11 +290,37 @@ header li {
     50% {
         top: -2.4em;
     }
-    75%{
+
+    75% {
         top: -3.6em;
     }
-    100%{
+
+    100% {
         top: -4.8em;
     }
 
 }
+
+@keyframes swing {
+    20% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+
+    60% {
+        transform: rotate(5deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* end keyframes */
