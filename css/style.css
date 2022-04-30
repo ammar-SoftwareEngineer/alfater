@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-overflow-y: hidden;
+    overflow-y: hidden;
 }
 
 .container {
@@ -54,7 +54,6 @@ overflow-y: hidden;
 
 /* start header */
 header {
-
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -105,7 +104,6 @@ header li {
         font-family: myFirstFont;
         background-image: url("../images/Eid-Mubarak-Web-Banner-19.svg");
         background-position: 20%;
-        overflow-y: visible;
     }
 
     header {
@@ -209,7 +207,7 @@ header .images .six {
     .images .one img {
         position: absolute;
         left: 42%;
-        top: 80%;
+        top: 675px;
     }
 
     header .images .two {
@@ -219,7 +217,7 @@ header .images .six {
     .images .two img {
         position: absolute;
         left: 80%;
-        top: 80%;
+        top: 675px;
     }
 
     header .images .three {
@@ -239,7 +237,7 @@ header .images .six {
     .images .four img {
         position: absolute;
         left: 5%;
-        top: 80%;
+        top: 675px;
     }
 
     header .images .five {
