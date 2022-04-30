@@ -14,7 +14,6 @@ body {
     background-image: url("../images/Eid-Mubarak-Web-Banner-19.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -54,7 +53,8 @@ body {
 
 header {
     text-align: center;
-    height: 350px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     background: rgba(255, 255, 255, 0.14);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -62,7 +62,9 @@ header {
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 1);
 }
-
+header h1{
+    font-size: 50px;
+}
 header h2 {
     height: 1.2em;
     line-height: 1.2em;
@@ -97,13 +99,15 @@ header li {
         background-position: 20%;
     }
     header{
-        height: 450px;
         background: rgba(255, 255, 255, 0.14);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         border: 1px solid rgba(255, 255, 255, 1);
+    }
+    header h1{
+        font-size: 45px;
     }
     header h2 span {
         animation: slide1 10s infinite;
