@@ -120,6 +120,7 @@ header li {
     }
 
     header h2 span {
+        font-size: 22px;
         animation: slide1 10s infinite;
     }
 
@@ -288,15 +289,15 @@ header .images .six {
     }
 
     50% {
-        top: -2.4em;
+        top: -2.6em;
     }
 
     75% {
-        top: -3.6em;
+        top: -3.8em;
     }
 
     100% {
-        top: -4.8em;
+        top: -5.2em;
     }
 
 }
