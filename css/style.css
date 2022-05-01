@@ -230,6 +230,7 @@ header .images .six {
         position: absolute;
         left: 70%;
         top: 0;
+        z-index: 2;
     }
 
     header .images .four {
@@ -250,6 +251,7 @@ header .images .six {
         position: absolute;
         left: 5%;
         top: 0;
+        z-index: 2;
     }
 
     header .images .six {
@@ -260,6 +262,7 @@ header .images .six {
         position: absolute;
         left: 42%;
         top: 0;
+        z-index: 2;
     }
 }
 
