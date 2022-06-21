@@ -271,34 +271,34 @@ header .images .six {
 /* end images */
 /* start keyframes */
 @keyframes slide {
-    0% {
+    20% {
         top: 0;
     }
 
-    25% {
+    50% {
         top: -1.2em;
     }
 
-    50% {
+    70% {
         top: -2.4em;
     }
 
 }
 
 @keyframes slide1 {
-    0% {
+    20% {
         top:0;
     }
 
-    25% {
+    40% {
         top: -1.2em;
     }
 
-    50% {
+    60% {
         top: -2.6em;
     }
 
-    75% {
+    80% {
         top: -3.8em;
     }
 
